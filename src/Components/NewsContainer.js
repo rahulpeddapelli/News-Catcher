@@ -58,7 +58,7 @@ export default function NewsContainer(props) {
   };
 
   
-  //& handling initial news update after country change
+  //& handling initial news loadiing after country change
   useEffect(()=>{updateNews()},[props.country]);
 
 
