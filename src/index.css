@@ -1,3 +1,28 @@
 body{
     background-color: rgb(224, 221, 221);
 }
+
+
+/* Select dropdown styling */
+select {
+    width: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+}
+
+
+select:focus {
+    outline: none;
+}
+
+/* Option styling */
+option {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
